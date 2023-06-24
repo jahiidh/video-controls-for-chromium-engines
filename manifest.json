@@ -1,0 +1,14 @@
+{
+  "name": "Video Controls",
+  "action": {
+    "default_icon": "icon.png"
+  },
+  "manifest_version": 3,
+  "version": "1.01.03",
+  "description": "It will show all of video controls with complete access of those controls.",
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "content-script.js"
+  },
+  "author": "Jahid H."
+}
